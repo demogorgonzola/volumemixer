@@ -1,0 +1,41 @@
+﻿<Window x:Class="volumemixer.Templates"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:volumemixer"
+        mc:Ignorable="d"
+        Title="Templates" Height="450" Width="800">
+    <Grid>
+        <!-- Volume Entity Template -->
+        <Border 
+            Width="120"
+            Padding="15"
+            BorderBrush="Chartreuse"
+            BorderThickness="5"
+            >
+            <DockPanel>
+                <Image 
+                DockPanel.Dock="Top"
+                Height="50"
+                Width="50"
+                Source="sessionicon.jpg"/>
+                <TextBlock 
+                DockPanel.Dock="Top"
+                TextWrapping="WrapWithOverflow" 
+                TextTrimming="CharacterEllipsis" 
+                TextAlignment="Center" 
+                Text="VolumEntity Name sdfsdfsdfs sdfdfdfsdfsdfsddfffff" 
+                FontSize="16"
+                Padding="2"
+                LineHeight="22"
+                Height="70"
+                />
+                <Slider 
+                Orientation="Vertical"
+                HorizontalAlignment="Center" 
+                />
+            </DockPanel>
+        </Border>
+    </Grid>
+</Window>
